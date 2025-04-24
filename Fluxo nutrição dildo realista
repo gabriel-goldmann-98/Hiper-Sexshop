@@ -24,17 +24,23 @@
     .product-review span { font-weight: bold; color: #333333; }
     .stars { color: #FFC107; font-size: 16px; margin-bottom: 5px; }
     .subcat-button { background-color: #eb5c66; border-radius: 12px; padding: 10px 20px; color: #ffffff !important; font-weight: bold; text-decoration: none; display: inline-block; margin: 10px; font-size: 14px; }
+    @media screen and (max-width: 600px) {
+      .container { width: 100% !important; max-width: 100% !important; }
+      .column { display: block !important; width: 100% !important; max-width: 100% !important; }
+      .button-a { width: 100% !important; font-size: 18px !important; }
+      img { max-width: 100% !important; height: auto !important; }
+    }
   </style>
 </head>
 <body>
-  <table width="100%" cellpadding="0" cellspacing="0" style="background-color: #f7f7f7; padding: 20px;">
+  <table width="100%" cellpadding="0" cellspacing="0" style="background-color: #f7f7f7;">
     <tr><td align="center">
-      <table width="600" cellpadding="0" cellspacing="0" class="content-table" style="background-color: #ffffff; border-radius: 10px;">
+      <table class="container" width="600" cellpadding="0" cellspacing="0" style="background-color: #ffffff; border-radius: 10px; width: 100%; max-width: 600px;">
         <tr><td align="center">
-          <img src="https://email-editor-production.s3.amazonaws.com/images/901354/banner-hiper-email.png" alt="Banner com ofertas exclusivas da Hiper Sexshop" width="600" style="width: 100%; max-width: 600px;">
+          <img src="https://email-editor-production.s3.amazonaws.com/images/901354/banner-hiper-email.png" alt="Banner com ofertas exclusivas da Hiper Sexshop" style="width: 100%; max-width: 600px; height: auto; display: block;">
         </td></tr>
-        <tr><td align="left" class="content-padding" style="padding: 30px;">
-          <p>Olá *|NOME|*, tudo bem?</p>
+        <tr><td style="padding: 30px;">
+          <p>Olá [Nome], tudo bem?</p>
           <p>Notamos que você deu uma olhada na nossa incrível coleção de Pênis Realísticos no Hiper Sexshop!</p>
           <p>Temos opções para todos os gostos: diferentes tamanhos, texturas que imitam a pele, com ou sem veias, feitos em materiais seguros como silicone médico.</p>
           <p>Que tal conferir os <a href="https://www.hipersexshop.com.br/cat/25/penis-realisticos" target="_blank">modelos mais populares</a>?</p>
@@ -42,43 +48,27 @@
           <h2 style="border-top: 1px solid #eeeeee; padding-top: 20px;">Confira Nossos Mais Populares:</h2>
 
           <!-- Grade de Produtos -->
-          <table border="0" cellpadding="0" cellspacing="0" width="100%">
+          <table width="100%" cellpadding="0" cellspacing="0">
             <tr>
-              <td align="left" valign="top" width="48%" class="column" style="padding-right: 2%;">
-                <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                  <tr>
-                    <td align="center" class="product-image" style="padding-bottom: 15px;">
-                      <img src="https://thumb.braavo.me/hiper/0/3046586337.webp" alt="Pênis Nacho Vidal com ventosa" width="250" style="display: block; max-width: 250px; height: auto; border-radius: 4px;">
-                    </td>
-                  </tr>
-                  <tr><td align="left">
-                    <h3 class="product-name">Pênis Nacho Vidal</h3>
-                    <p class="product-price">R$ 89,90</p>
-                    <div class="button-td" style="margin-bottom: 10px;">
-                      <a class="button-a" href="https://www.hipersexshop.com.br/prod/9556/penis-realistico-nacho-vidal-com-ventosa-23-cm-x-5-cm#s22845" target="_blank">Comprar Agora</a>
-                    </div>
-                    <p class="stars">⭐⭐⭐⭐⭐</p>
-                    <p class="product-review"><span>Marcelo C.:</span> "<em>Maravilhoso</em> - Produto lindo, tudo de bom."</p>
-                  </td></tr>
-                </table>
+              <td class="column" valign="top" style="width: 50%; padding: 10px;">
+                <img src="https://thumb.braavo.me/hiper/0/3046586337.webp" alt="Pênis Nacho Vidal com ventosa" style="max-width: 100%; height: auto; display: block; border-radius: 4px;">
+                <h3 class="product-name">Pênis Nacho Vidal</h3>
+                <p class="product-price">R$ 89,90</p>
+                <div class="button-td" style="margin-bottom: 10px;">
+                  <a class="button-a" href="https://www.hipersexshop.com.br/prod/9556/penis-realistico-nacho-vidal-com-ventosa-23-cm-x-5-cm#s22845">Comprar Agora</a>
+                </div>
+                <p class="stars">⭐⭐⭐⭐⭐</p>
+                <p class="product-review"><span>Marcelo C.:</span> "<em>Maravilhoso</em> - Produto lindo, tudo de bom."</p>
               </td>
-              <td align="left" valign="top" width="48%" class="column" style="padding-left: 2%;">
-                <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                  <tr>
-                    <td align="center" class="product-image" style="padding-bottom: 15px;">
-                      <img src="https://thumb.braavo.me/hiper/0/1482730835.webp" alt="Pênis Stefano" width="250" style="display: block; max-width: 250px; height: auto; border-radius: 4px;">
-                    </td>
-                  </tr>
-                  <tr><td align="left">
-                    <h3 class="product-name">Pênis Stefano</h3>
-                    <p class="product-price">R$ 49,90</p>
-                    <div class="button-td" style="margin-bottom: 10px;">
-                      <a class="button-a" href="https://www.hipersexshop.com.br/prod/16732/penis-realistico-em-silicone-stefano-19-cm-x-3-5-cm#s21303" target="_blank">Comprar Agora</a>
-                    </div>
-                    <p class="stars">⭐⭐⭐⭐⭐</p>
-                    <p class="product-review"><span>Nelson M.:</span> "<em>Bom</em> - Produto de boa qualidade."</p>
-                  </td></tr>
-                </table>
+              <td class="column" valign="top" style="width: 50%; padding: 10px;">
+                <img src="https://thumb.braavo.me/hiper/0/1482730835.webp" alt="Pênis Stefano" style="max-width: 100%; height: auto; display: block; border-radius: 4px;">
+                <h3 class="product-name">Pênis Stefano</h3>
+                <p class="product-price">R$ 49,90</p>
+                <div class="button-td" style="margin-bottom: 10px;">
+                  <a class="button-a" href="https://www.hipersexshop.com.br/prod/16732/penis-realistico-em-silicone-stefano-19-cm-x-3-5-cm#s21303">Comprar Agora</a>
+                </div>
+                <p class="stars">⭐⭐⭐⭐⭐</p>
+                <p class="product-review"><span>Nelson M.:</span> "<em>Bom</em> - Produto de boa qualidade."</p>
               </td>
             </tr>
           </table>
@@ -103,7 +93,7 @@
           </table>
 
           <div style="text-align: center; margin-top: 30px;">
-            <img src="https://email-editor-production.s3.amazonaws.com/images/901354/cards.jpg" alt="Benefícios de comprar na Hiper Sexshop" width="560" style="width: 100%; max-width: 560px; border-radius: 8px; display: block;">
+            <img src="https://email-editor-production.s3.amazonaws.com/images/901354/cards.jpg" alt="Benefícios de comprar na Hiper Sexshop" style="width: 100%; max-width: 560px; border-radius: 8px; display: block;">
           </div>
 
           <div style="margin-top: 30px; border-top: 1px solid #eeeeee; padding-top: 20px;">
