@@ -55,7 +55,7 @@
         font-size: 22px !important;
         line-height: 26px !important;
       }
-      .subheadline {
+      .intro-text {
         font-size: 16px !important;
         line-height: 22px !important;
       }
@@ -66,10 +66,6 @@
       .benefit-text {
         font-size: 13px !important;
         line-height: 18px !important;
-      }
-      .intro-text {
-        font-size: 16px !important;
-        line-height: 22px !important;
       }
       .cta-button {
         font-size: 16px !important;
@@ -128,7 +124,7 @@
           <tr>
             <td align="center" class="content-cell" style="padding:0 24px;">
               <img
-                src="https://email-editor-production.s3.amazonaws.com/images/901354/Estamos%20muito%20felizes%20pela%20sua%20chegada%21.png"
+                src="https://email-editor-production.s3.amazonaws.com/images/901354/Estamos%20muito%20felizes%20pela%20sua%20chegada%21_1.png"
                 alt="Estamos muito felizes pela sua chegada!"
                 width="560"
                 style="display:block; width:100%; max-width:560px; height:auto;"
@@ -172,7 +168,7 @@
                 <tr>
                   <td width="40" valign="top" style="padding-right:12px;">
                     <img
-                      src="https://email-editor-production.s3.amazonaws.com/images/901354/1.png"
+                      src="https://email-editor-production.s3.amazonaws.com/images/901354/1_1.png"
                       alt="Ícone coração"
                       width="32"
                       style="display:block; width:32px; height:auto;"
@@ -208,7 +204,7 @@
                 <tr>
                   <td width="40" valign="top" style="padding-right:12px;">
                     <img
-                      src="https://email-editor-production.s3.amazonaws.com/images/901354/3.png"
+                      src="https://email-editor-production.s3.amazonaws.com/images/901354/3_1.png"
                       alt="Ícone carrinho"
                       width="32"
                       style="display:block; width:32px; height:auto;"
@@ -244,7 +240,7 @@
                 <tr>
                   <td width="40" valign="top" style="padding-right:12px;">
                     <img
-                      src="https://email-editor-production.s3.amazonaws.com/images/901354/2.png"
+                      src="https://email-editor-production.s3.amazonaws.com/images/901354/2_1.png"
                       alt="Ícone discrição"
                       width="32"
                       style="display:block; width:32px; height:auto;"
