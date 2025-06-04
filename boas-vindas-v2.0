@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <!-- Evita que o e-mail seja invertido em Dark Mode -->
+  <meta name="color-scheme" content="light">
+  <meta name="supported-color-schemes" content="light">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bem-vindo ao Hiper Sexshop</title>
+  <style>
+    /* Ajustes básicos de compatibilidade */
+    html, body {
+      margin: 0;
+      padding: 0;
+      background-color: #fff5f8; /* Fundo rosa-claro */
+    }
+    /* Impede ajustes de tamanho de texto automáticos em alguns clientes */
+    body {
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+    }
+    /* Remove espaçamentos de tabelas */
+    table {
+      border-collapse: collapse;
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+    }
+    img {
+      border: 0;
+      display: block;
+      outline: none;
+      text-decoration: none;
+      -ms-interpolation-mode: bicubic;
+    }
+    a {
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body style="margin:0; padding:0; background-color:#fff5f8;">
+  <!-- Container principal -->
+  <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#fff5f8">
+    <tr>
+      <td align="center">
+        <!-- Largura fixa de 600px para layout centralizado -->
+        <table width="600" cellpadding="0" cellspacing="0" border="0" style="max-width:600px; margin:0 auto;">
+          
+          <!-- Banner no topo -->
+          <tr>
+            <td>
+              <img
+                src="https://email-editor-production.s3.amazonaws.com/images/901354/teste_1.png"
+                alt="HIPERSEXSHOP - A sua fonte inesgotável de prazer"
+                width="600"
+                style="display:block; width:100%; height:auto;"
+              />
+            </td>
+          </tr>
+          
+          <!-- Espaçamento entre banner e conteúdo -->
+          <tr>
+            <td style="height:20px; line-height:20px; font-size:0;">&nbsp;</td>
+          </tr>
+          
+          <!-- Saudações e conteúdo -->
+          <tr>
+            <td style="padding:0 20px;">
+              
+              <!-- Título de saudação -->
+              <h2 style="
+                margin:0;
+                font-family: Arial, sans-serif;
+                font-size: 24px;
+                line-height: 28px;
+                color: #fd4d5f !important;
+              ">
+                Olá, {{lead.name}}
+              </h2>
+              
+              <!-- Espaçamento após título -->
+              <div style="height:12px; line-height:12px; font-size:0;">&nbsp;</div>
+              
+              <!-- Box de boas-vindas -->
+              <div style="
+                border: 1px solid #dddddd;
+                border-radius: 4px;
+                background-color: #ffffff;
+                padding: 16px;
+              ">
+                <h3 style="
+                  margin: 0 0 8px 0;
+                  font-family: Arial, sans-serif;
+                  font-size: 20px;
+                  line-height: 24px;
+                  color: #fd4d5f !important;
+                ">
+                  Seja bem-vindo ao Hiper Sexshop
+                </h3>
+                <p style="
+                  margin: 0;
+                  font-family: Arial, sans-serif;
+                  font-size: 14px;
+                  line-height: 20px;
+                  color: #333333 !important;
+                ">
+                  Estamos muito felizes pela sua chegada!
+                </p>
+              </div>
+              
+              <!-- Espaçamento -->
+              <div style="height:20px; line-height:20px; font-size:0;">&nbsp;</div>
+              
+              <!-- Texto introdutório -->
+              <p style="
+                margin: 0;
+                font-family: Arial, sans-serif;
+                font-size: 14px;
+                line-height: 20px;
+                color: #333333 !important;
+              ">
+                O que você pode esperar sendo nosso cliente:
+              </p>
+              
+              <!-- Espaçamento -->
+              <div style="height:12px; line-height:12px; font-size:0;">&nbsp;</div>
+              
+              <!-- Lista de benefícios -->
+              <ul style="
+                margin: 0;
+                padding-left: 20px;
+                font-family: Arial, sans-serif;
+                font-size: 14px;
+                line-height: 20px;
+                color: #333333 !important;
+              ">
+                <li style="margin-bottom:12px;">
+                  <span style="
+                    color: #fd4d5f !important;
+                    font-size: 16px;
+                    vertical-align: middle;
+                  ">♥</span>
+                  <strong style="color: #fd4d5f !important;"> prazer, amor e conexão</strong> – Criamos experiências para você se sentir bem consigo e com quem ama.
+                </li>
+                <li style="margin-bottom:12px;">
+                  <span style="
+                    color: #fd4d5f !important;
+                    font-size: 16px;
+                    vertical-align: middle;
+                  ">🛒</span>
+                  <strong style="color: #fd4d5f !important;"> variedade e qualidade</strong> – De vibradores a fantasias, temos tudo para elevar seu prazer com segurança.
+                </li>
+                <li>
+                  <span style="
+                    color: #fd4d5f !important;
+                    font-size: 16px;
+                    vertical-align: middle;
+                  ">🤫</span>
+                  <strong style="color: #fd4d5f !important;"> discrição e respeito</strong> – Compra segura, entrega discreta e total respeito à sua privacidade.
+                </li>
+              </ul>
+              
+              <!-- Espaçamento antes do botão -->
+              <div style="height:30px; line-height:30px; font-size:0;">&nbsp;</div>
+              
+              <!-- CTA centralizado -->
+              <div style="text-align:center;">
+                <a
+                  href="https://www.hipersexshop.com.br/"
+                  target="_blank"
+                  style="
+                    display: inline-block;
+                    background-color: #fd4d5f !important;
+                    color: #ffffff !important;
+                    font-family: Arial, sans-serif;
+                    font-size: 16px;
+                    line-height: 20px;
+                    padding: 12px 24px;
+                    border-radius: 4px;
+                    text-decoration: none;
+                  "
+                >
+                  ACESSE NOSSA LOJA
+                </a>
+              </div>
+              
+              <!-- Espaçamento final -->
+              <div style="height:40px; line-height:40px; font-size:0;">&nbsp;</div>
+              
+            </td>
+          </tr>
+          
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
