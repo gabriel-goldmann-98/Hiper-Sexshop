@@ -2,12 +2,13 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <!-- Evita que o e-mail seja invertido em Dark Mode -->
+  <!-- Evita inversão profunda no Dark Mode em alguns clientes -->
   <meta name="color-scheme" content="light">
   <meta name="supported-color-schemes" content="light">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bem-vindo ao Hiper Sexshop</title>
   <style>
+    /* Reset básico para e-mail */
     html, body {
       margin: 0;
       padding: 0;
@@ -32,41 +33,77 @@
     a {
       text-decoration: none;
     }
-    /* Cleanup for Outlook Dark Mode */
+    /* Garante que o fundo não vire preto em Dark Mode */
     @media screen and (prefers-color-scheme: dark) {
       .external-body, .external-body table { background-color: #fff5f8 !important; }
+    }
+    /* Estilos móveis (mobile-first) */
+    @media only screen and (max-width: 480px) {
+      .container {
+        width: 100% !important;
+        padding: 0 !important;
+      }
+      .responsive-image {
+        width: 100% !important;
+        height: auto !important;
+      }
+      .content-cell {
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+      }
+      .headline {
+        font-size: 22px !important;
+        line-height: 26px !important;
+      }
+      .subheadline {
+        font-size: 16px !important;
+        line-height: 22px !important;
+      }
+      .benefit-title {
+        font-size: 15px !important;
+        line-height: 20px !important;
+      }
+      .benefit-text {
+        font-size: 13px !important;
+        line-height: 18px !important;
+      }
+      .cta-button {
+        font-size: 16px !important;
+        padding: 12px 20px !important;
+      }
     }
   </style>
 </head>
 <body style="margin:0; padding:0; background-color:#fff5f8;">
-  <!-- Container principal -->
+  <!-- Container externo que garante fundo consistente -->
   <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#fff5f8">
     <tr>
       <td align="center">
-        <!-- Largura fixa de 600px para layout centralizado -->
-        <table width="600" cellpadding="0" cellspacing="0" border="0" style="max-width:600px; margin:0 auto;" class="external-body">
+        <!-- Container interno com largura máxima de 600px -->
+        <table class="external-body container" width="600" cellpadding="0" cellspacing="0" border="0" style="max-width:600px; width:100%; margin:0 auto; background-color:#fff5f8;">
           
-          <!-- Banner no topo -->
+          <!-- 1) Banner no topo (full-width responsivo) -->
           <tr>
             <td>
               <img
                 src="https://email-editor-production.s3.amazonaws.com/images/901354/teste_1.png"
                 alt="HIPERSEXSHOP - A sua fonte inesgotável de prazer"
                 width="600"
-                style="display:block; width:100%; height:auto;"
+                style="display:block; width:100%; max-width:600px; height:auto;"
+                class="responsive-image"
               />
             </td>
           </tr>
           
-          <!-- Espaçamento entre banner e conteúdo -->
+          <!-- Espaçamento após banner -->
           <tr>
-            <td style="height:20px; line-height:20px; font-size:0;">&nbsp;</td>
+            <td style="height:16px; line-height:16px; font-size:0;">&nbsp;</td>
           </tr>
           
-          <!-- Saudação personalizada -->
+          <!-- 2) Saudações personalizadas -->
           <tr>
-            <td style="padding:0 20px;">
-              <h2 style="
+            <td class="content-cell" style="padding:0 24px;">
+              <h2 class="headline" style="
                 margin:0;
                 font-family: Arial, sans-serif;
                 font-size: 24px;
@@ -83,14 +120,15 @@
             <td style="height:12px; line-height:12px; font-size:0;">&nbsp;</td>
           </tr>
           
-          <!-- Imagem de boas-vindas (substitui bloco de texto “Seja bem-vindo”) -->
+          <!-- 3) Imagem de boas-vindas (substituindo o bloco de texto) -->
           <tr>
-            <td align="center" style="padding:0 20px;">
+            <td align="center" class="content-cell" style="padding:0 24px;">
               <img
-                src="https://email-editor-production.s3.amazonaws.com/images/901354/header%20jpg%20pro%20html.jpg"
-                alt="Seja bem-vindo ao Hiper Sexshop – estamos muito felizes pela sua chegada!"
+                src="https://email-editor-production.s3.amazonaws.com/images/901354/Estamos%20muito%20felizes%20pela%20sua%20chegada%21.png"
+                alt="Estamos muito felizes pela sua chegada!"
                 width="560"
                 style="display:block; width:100%; max-width:560px; height:auto; border:1px solid #dddddd; border-radius:4px;"
+                class="responsive-image"
               />
             </td>
           </tr>
@@ -100,9 +138,9 @@
             <td style="height:20px; line-height:20px; font-size:0;">&nbsp;</td>
           </tr>
           
-          <!-- Texto introdutório -->
+          <!-- 4) Texto introdutório -->
           <tr>
-            <td style="padding:0 20px;">
+            <td class="content-cell" style="padding:0 24px;">
               <p style="
                 margin: 0;
                 font-family: Arial, sans-serif;
@@ -120,10 +158,11 @@
             <td style="height:12px; line-height:12px; font-size:0;">&nbsp;</td>
           </tr>
           
-          <!-- Lista de benefícios com ícones -->
+          <!-- 5) Lista de benefícios com ícones -->
           <tr>
-            <td style="padding:0 20px;">
-              <!-- Ícone + Texto 1 -->
+            <td class="content-cell" style="padding:0 24px;">
+              
+              <!-- Benefício 1: Ícone + Texto -->
               <table cellpadding="0" cellspacing="0" border="0" width="100%">
                 <tr>
                   <td width="40" valign="top" style="padding-right:12px;">
@@ -132,10 +171,11 @@
                       alt="Ícone coração"
                       width="32"
                       style="display:block; width:32px; height:auto;"
+                      class="responsive-image"
                     />
                   </td>
                   <td valign="top">
-                    <p style="
+                    <p class="benefit-title" style="
                       margin: 0;
                       font-family: Arial, sans-serif;
                       font-size: 16px;
@@ -145,7 +185,7 @@
                     ">
                       prazer, amor e conexão
                     </p>
-                    <p style="
+                    <p class="benefit-text" style="
                       margin: 4px 0 12px 0;
                       font-family: Arial, sans-serif;
                       font-size: 14px;
@@ -158,7 +198,7 @@
                 </tr>
               </table>
               
-              <!-- Ícone + Texto 2 -->
+              <!-- Benefício 2: Ícone + Texto -->
               <table cellpadding="0" cellspacing="0" border="0" width="100%">
                 <tr>
                   <td width="40" valign="top" style="padding-right:12px;">
@@ -167,10 +207,11 @@
                       alt="Ícone carrinho"
                       width="32"
                       style="display:block; width:32px; height:auto;"
+                      class="responsive-image"
                     />
                   </td>
                   <td valign="top">
-                    <p style="
+                    <p class="benefit-title" style="
                       margin: 0;
                       font-family: Arial, sans-serif;
                       font-size: 16px;
@@ -180,7 +221,7 @@
                     ">
                       variedade e qualidade
                     </p>
-                    <p style="
+                    <p class="benefit-text" style="
                       margin: 4px 0 12px 0;
                       font-family: Arial, sans-serif;
                       font-size: 14px;
@@ -193,7 +234,7 @@
                 </tr>
               </table>
               
-              <!-- Ícone + Texto 3 -->
+              <!-- Benefício 3: Ícone + Texto -->
               <table cellpadding="0" cellspacing="0" border="0" width="100%">
                 <tr>
                   <td width="40" valign="top" style="padding-right:12px;">
@@ -202,10 +243,11 @@
                       alt="Ícone discrição"
                       width="32"
                       style="display:block; width:32px; height:auto;"
+                      class="responsive-image"
                     />
                   </td>
                   <td valign="top">
-                    <p style="
+                    <p class="benefit-title" style="
                       margin: 0;
                       font-family: Arial, sans-serif;
                       font-size: 16px;
@@ -215,7 +257,7 @@
                     ">
                       discrição e respeito
                     </p>
-                    <p style="
+                    <p class="benefit-text" style="
                       margin: 4px 0 0 0;
                       font-family: Arial, sans-serif;
                       font-size: 14px;
@@ -227,6 +269,7 @@
                   </td>
                 </tr>
               </table>
+              
             </td>
           </tr>
           
@@ -235,12 +278,13 @@
             <td style="height:30px; line-height:30px; font-size:0;">&nbsp;</td>
           </tr>
           
-          <!-- CTA centralizado -->
+          <!-- 6) CTA centralizado -->
           <tr>
-            <td align="center" style="padding:0 20px;">
+            <td align="center" class="content-cell" style="padding:0 24px;">
               <a
                 href="https://www.hipersexshop.com.br/"
                 target="_blank"
+                class="cta-button"
                 style="
                   display: inline-block;
                   background-color: #fd4d5f !important;
