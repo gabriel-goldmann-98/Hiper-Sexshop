@@ -67,13 +67,13 @@
         font-size: 13px !important;
         line-height: 18px !important;
       }
-      .cta-button {
-        font-size: 16px !important;
-        padding: 12px 20px !important;
-      }
       .coupon-text {
         font-size: 14px !important;
         line-height: 20px !important;
+      }
+      .cta-button {
+        font-size: 16px !important;
+        padding: 12px 20px !important;
       }
     }
   </style>
@@ -128,7 +128,7 @@
           <tr>
             <td align="center" class="content-cell" style="padding:0 24px;">
               <img
-                src="https://email-editor-production.s3.amazonaws.com/images/901354/Estamos%20muito%20felizes%20pela%20sua%20chegada%21_1.png"
+                src="https://email-editor-production.s3.amazonaws.com/images/901354/Estamos%20muito%20felizes%20pela%20sua%20chegada1.png"
                 alt="Estamos muito felizes pela sua chegada!"
                 width="560"
                 style="display:block; width:100%; max-width:560px; height:auto;"
@@ -142,38 +142,7 @@
             <td style="height:20px; line-height:20px; font-size:0;">&nbsp;</td>
           </tr>
           
-          <!-- 4) Copy do cupom Primeiravez (destaque visual) -->
-          <tr>
-            <td class="content-cell" style="padding:0 24px;">
-              <p class="coupon-text" style="
-                margin: 0;
-                font-family: Arial, sans-serif;
-                font-size: 15px;
-                line-height: 21px;
-                color: #333333 !important;
-              ">
-                Use o cupom 
-                <span style="
-                  background-color: #ff005d;
-                  color: #ffffff;
-                  font-weight: bold;
-                  padding: 2px 6px;
-                  border-radius: 4px;
-                  font-family: Arial, sans-serif;
-                  font-size: 15px;
-                  line-height: 21px;
-                ">PRIMEIRAVEZ</span>
-                na sua primeira compra e garanta um desconto exclusivo!
-              </p>
-            </td>
-          </tr>
-          
-          <!-- Espaçamento após copy do cupom -->
-          <tr>
-            <td style="height:20px; line-height:20px; font-size:0;">&nbsp;</td>
-          </tr>
-          
-          <!-- 5) Texto introdutório (tamanho aumentado e em negrito) -->
+          <!-- 4) Texto introdutório (tamanho aumentado e em negrito) -->
           <tr>
             <td class="content-cell" style="padding:0 24px;">
               <p class="intro-text" style="
@@ -194,7 +163,7 @@
             <td style="height:12px; line-height:12px; font-size:0;">&nbsp;</td>
           </tr>
           
-          <!-- 6) Lista de benefícios com ícones -->
+          <!-- 5) Lista de benefícios com ícones -->
           <tr>
             <td class="content-cell" style="padding:0 24px;">
               
@@ -309,9 +278,40 @@
             </td>
           </tr>
           
-          <!-- Espaçamento antes do botão -->
+          <!-- Espaçamento após lista de benefícios -->
           <tr>
-            <td style="height:30px; line-height:30px; font-size:0;">&nbsp;</td>
+            <td style="height:20px; line-height:20px; font-size:0;">&nbsp;</td>
+          </tr>
+          
+          <!-- 6) Copy do cupom PRIMEIRAVEZ (abaixo dos ícones) -->
+          <tr>
+            <td class="content-cell" style="padding:0 24px;">
+              <p class="coupon-text" style="
+                margin: 0;
+                font-family: Arial, sans-serif;
+                font-size: 15px;
+                line-height: 21px;
+                color: #333333 !important;
+              ">
+                Aproveite seu desconto! Use o cupom 
+                <span style="
+                  background-color: #ff005d;
+                  color: #ffffff;
+                  font-weight: bold;
+                  padding: 2px 6px;
+                  border-radius: 4px;
+                  font-family: Arial, sans-serif;
+                  font-size: 15px;
+                  line-height: 21px;
+                ">PRIMEIRAVEZ</span>
+                na sua primeira compra e garanta um desconto exclusivo.
+              </p>
+            </td>
+          </tr>
+          
+          <!-- Espaçamento após copy do cupom -->
+          <tr>
+            <td style="height:20px; line-height:20px; font-size:0;">&nbsp;</td>
           </tr>
           
           <!-- 7) CTA centralizado -->
