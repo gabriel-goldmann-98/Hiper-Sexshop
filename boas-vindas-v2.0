@@ -67,6 +67,10 @@
         font-size: 13px !important;
         line-height: 18px !important;
       }
+      .intro-text {
+        font-size: 16px !important;
+        line-height: 22px !important;
+      }
       .cta-button {
         font-size: 16px !important;
         padding: 12px 20px !important;
@@ -120,14 +124,14 @@
             <td style="height:12px; line-height:12px; font-size:0;">&nbsp;</td>
           </tr>
           
-          <!-- 3) Imagem de boas-vindas (substituindo o bloco de texto) -->
+          <!-- 3) Imagem de boas-vindas (sem borda cinza) -->
           <tr>
             <td align="center" class="content-cell" style="padding:0 24px;">
               <img
                 src="https://email-editor-production.s3.amazonaws.com/images/901354/Estamos%20muito%20felizes%20pela%20sua%20chegada%21.png"
                 alt="Estamos muito felizes pela sua chegada!"
                 width="560"
-                style="display:block; width:100%; max-width:560px; height:auto; border:1px solid #dddddd; border-radius:4px;"
+                style="display:block; width:100%; max-width:560px; height:auto;"
                 class="responsive-image"
               />
             </td>
@@ -138,14 +142,15 @@
             <td style="height:20px; line-height:20px; font-size:0;">&nbsp;</td>
           </tr>
           
-          <!-- 4) Texto introdutório -->
+          <!-- 4) Texto introdutório (tamanho aumentado e em negrito) -->
           <tr>
             <td class="content-cell" style="padding:0 24px;">
-              <p style="
+              <p class="intro-text" style="
                 margin: 0;
                 font-family: Arial, sans-serif;
-                font-size: 14px;
-                line-height: 20px;
+                font-size: 16px;
+                line-height: 22px;
+                font-weight: bold;
                 color: #333333 !important;
               ">
                 O que você pode esperar sendo nosso cliente:
